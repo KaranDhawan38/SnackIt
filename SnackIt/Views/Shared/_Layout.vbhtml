@@ -82,9 +82,42 @@
             font-weight: 700;
             text-decoration: underline;
         }
+
+        .counter {
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 50px;
+            width: 154px;
+            border: black 2px solid;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 24px; /* Large font size for buttons */
+            background: none;
+            border: none;
+            cursor: pointer;
+            user-select: none;
+            background-color: #FF5722;
+            color:white;
+        }
+
+        .value {
+            padding: 10px 20px;
+            font-size: 24px; /* Large font size for the number */
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            min-width: 21px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/bootstrap")
     <div class="app-container">
         <header class="app-header">
             <h2>SnackIt</h2>
@@ -108,11 +141,25 @@
                     <li class="@foodsClass"><a href="/Home/Foods">Foods</a></li>
                     <li class="@drinksClass"><a href="/Home/Drinks">Drinks</a></li>
                     <li class="@desertsClass"><a href="/Home/Deserts">Deserts</a></li>
-                    <li><a href="#">MyCart</a></li>
                 </ul>
             </nav>
         </header>
         @RenderBody()
     </div>
+    <script>
+        let count = 0;
+
+        function increment() {
+            count++;
+            $(event.target).siblings("div")[0].textContent = count;
+        }
+
+        function decrement() {
+            if (count > 0) {
+                count--;
+                $(event.target).siblings("div")[0].textContent = count;
+            }
+        }
+    </script>
 </body>
 </html>

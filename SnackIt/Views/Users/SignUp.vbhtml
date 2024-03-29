@@ -88,7 +88,7 @@ End Code
 <body>
     <div class="container">
         <h2>SnackIt</h2>
-        <form action="/" method="post">
+        <form action="/Users/SignUp" method="post">
             <div class="input-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="UserName" required>
