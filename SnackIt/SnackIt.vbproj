@@ -227,9 +227,24 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <Content Include="Images\2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg" />
     <Content Include="Images\52446409.jpg" />
     <Content Include="Images\61Bn5-uzC1L.jpg" />
+    <Content Include="Images\download %2810%29.jpg" />
+    <Content Include="Images\download %2811%29.jpg" />
+    <Content Include="Images\download %2812%29.jpg" />
+    <Content Include="Images\download %284%29.jpg" />
+    <Content Include="Images\download %285%29.jpg" />
+    <Content Include="Images\download %286%29.jpg" />
+    <Content Include="Images\download %287%29.jpg" />
+    <Content Include="Images\download %288%29.jpg" />
+    <Content Include="Images\download %289%29.jpg" />
     <Content Include="Images\molten-chocolate-cake-FT-RECIPE0220-0a33d7d0ab0c45588f7bfe742d33a9bc.jpg" />
+    <Content Include="Images\pexels-ash-376464.jpg" />
+    <Content Include="Images\pexels-karley-saagi-2801980.jpg" />
+    <Content Include="Images\sex-on-the-beach-vertical-6442f7c22a415.jpg" />
+    <Content Include="Images\Sushi_platter.jpg" />
+    <Content Include="Images\whole-spring-rolls-and-halved-ones-scaled.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />

@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\karan\\source\\repos\\SnackIt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|c:\\users\\karan\\source\\repos\\snackit\\snackit\\views\\shared\\_layout.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|c:\\users\\karan\\source\\repos\\snackit\\snackit\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\views\\shared\\_layout.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\views\\shared\\_layout.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -11,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\views\\home\\foodsgrid.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\views\\users\\signup.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\views\\users\\signup.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\controllers\\userscontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\controllers\\userscontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\views\\users\\signup.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\views\\users\\signup.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\views\\users\\login.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\enums\\fooditemtype.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\enums\\fooditemtype.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\models\\usersignup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -53,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\app_start\\routeconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\app_start\\routeconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\app_start\\bundleconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\app_start\\bundleconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,8 +62,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -82,32 +86,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FoodsGrid.vbhtml",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Home\\FoodsGrid.vbhtml",
               "RelativeDocumentMoniker": "SnackIt\\Views\\Home\\FoodsGrid.vbhtml",
               "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Home\\FoodsGrid.vbhtml",
               "RelativeToolTip": "SnackIt\\Views\\Home\\FoodsGrid.vbhtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
               "WhenOpened": "2024-03-26T17:09:16.72Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.vb",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Controllers\\HomeController.vb",
+              "RelativeDocumentMoniker": "SnackIt\\Controllers\\HomeController.vb",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Controllers\\HomeController.vb",
+              "RelativeToolTip": "SnackIt\\Controllers\\HomeController.vb",
+              "ViewState": "AQIAABYAAAAAAAAAAAA9wB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-26T17:14:03.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.vbhtml",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Shared\\_Layout.vbhtml",
               "RelativeDocumentMoniker": "SnackIt\\Views\\Shared\\_Layout.vbhtml",
               "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Shared\\_Layout.vbhtml",
               "RelativeToolTip": "SnackIt\\Views\\Shared\\_Layout.vbhtml",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAAAIsAAAAcAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAcwHEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
-              "WhenOpened": "2024-03-26T17:14:34.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T17:14:34.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SignUp.vbhtml",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Users\\SignUp.vbhtml",
               "RelativeDocumentMoniker": "SnackIt\\Views\\Users\\SignUp.vbhtml",
@@ -116,42 +132,6 @@
               "ViewState": "AQIAAHsAAAAAAAAAAAAAAHsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
               "WhenOpened": "2024-03-26T15:11:58.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.vbhtml",
-              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Users\\Login.vbhtml",
-              "RelativeDocumentMoniker": "SnackIt\\Views\\Users\\Login.vbhtml",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Users\\Login.vbhtml",
-              "RelativeToolTip": "SnackIt\\Views\\Users\\Login.vbhtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
-              "WhenOpened": "2024-03-26T15:11:33.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FoodItemType.vb",
-              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Enums\\FoodItemType.vb",
-              "RelativeDocumentMoniker": "SnackIt\\Enums\\FoodItemType.vb",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Enums\\FoodItemType.vb",
-              "RelativeToolTip": "SnackIt\\Enums\\FoodItemType.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-26T15:53:13.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BundleConfig.vb",
-              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\App_Start\\BundleConfig.vb",
-              "RelativeDocumentMoniker": "SnackIt\\App_Start\\BundleConfig.vb",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\App_Start\\BundleConfig.vb",
-              "RelativeToolTip": "SnackIt\\App_Start\\BundleConfig.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-26T15:12:39.842Z"
             },
             {
               "$type": "Document",
@@ -192,14 +172,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HomeController.vb",
-              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Controllers\\HomeController.vb",
-              "RelativeDocumentMoniker": "SnackIt\\Controllers\\HomeController.vb",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Controllers\\HomeController.vb",
-              "RelativeToolTip": "SnackIt\\Controllers\\HomeController.vb",
-              "ViewState": "AQIAABEAAAAAAAAAAAA9wCQAAAA+AAAA",
+              "Title": "FoodItemType.vb",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Enums\\FoodItemType.vb",
+              "RelativeDocumentMoniker": "SnackIt\\Enums\\FoodItemType.vb",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Enums\\FoodItemType.vb",
+              "RelativeToolTip": "SnackIt\\Enums\\FoodItemType.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-26T17:14:03.802Z"
+              "WhenOpened": "2024-03-26T15:53:13.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.vbhtml",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Users\\Login.vbhtml",
+              "RelativeDocumentMoniker": "SnackIt\\Views\\Users\\Login.vbhtml",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Users\\Login.vbhtml",
+              "RelativeToolTip": "SnackIt\\Views\\Users\\Login.vbhtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
+              "WhenOpened": "2024-03-26T15:11:33.393Z"
             },
             {
               "$type": "Document",

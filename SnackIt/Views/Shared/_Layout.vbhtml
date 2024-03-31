@@ -45,13 +45,6 @@
             padding: 20px;
         }
 
-        .category {
-            flex-basis: 100%;
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 20px;
-        }
-
         .food-item {
             text-align: center;
             flex-basis: 30%;
@@ -63,7 +56,7 @@
         }
 
             .food-item img {
-                width: 100px;
+                width: 242px;
                 height: auto;
             }
 
@@ -111,6 +104,21 @@
             border-bottom: 1px solid #ccc;
             min-width: 21px;
             text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 75vh;
+        }
+
+        .item {
+            width: 460px;
+            height: 318px;
+            margin: 10px;
+            background-color: #ccc;
         }
     </style>
 </head>
