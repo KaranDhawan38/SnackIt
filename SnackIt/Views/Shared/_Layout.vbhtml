@@ -111,12 +111,12 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            height: 75vh;
+            height: auto;
         }
 
         .item {
             width: 460px;
-            height: 318px;
+            height: fit-content;
             margin: 10px;
             background-color: #ccc;
         }

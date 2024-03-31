@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\karan\\source\\repos\\SnackIt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|c:\\users\\karan\\source\\repos\\snackit\\snackit\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\views\\shared\\_layout.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\views\\shared\\_layout.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|c:\\users\\karan\\source\\repos\\snackit\\snackit\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|solutionrelative:snackit\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43B363CF-75C4-4A3C-B2AC-34FE0EBC8917}|SnackIt\\SnackIt.vbproj|C:\\Users\\karan\\source\\repos\\SnackIt\\snackit\\views\\home\\foodsgrid.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +82,8 @@
               "RelativeToolTip": "SnackIt\\Controllers\\UsersController.vb",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwCIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-26T09:31:08.842Z"
+              "WhenOpened": "2024-03-26T09:31:08.842Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -98,28 +99,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.vb",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Controllers\\HomeController.vb",
               "RelativeDocumentMoniker": "SnackIt\\Controllers\\HomeController.vb",
               "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Controllers\\HomeController.vb",
               "RelativeToolTip": "SnackIt\\Controllers\\HomeController.vb",
-              "ViewState": "AQIAABYAAAAAAAAAAAA9wB4AAAAqAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAgwCAAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-03-26T17:14:03.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.vbhtml",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Shared\\_Layout.vbhtml",
               "RelativeDocumentMoniker": "SnackIt\\Views\\Shared\\_Layout.vbhtml",
               "ToolTip": "C:\\Users\\karan\\source\\repos\\SnackIt\\SnackIt\\Views\\Shared\\_Layout.vbhtml",
               "RelativeToolTip": "SnackIt\\Views\\Shared\\_Layout.vbhtml",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAcwHEAAAAZAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAcwHEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
-              "WhenOpened": "2024-03-26T17:14:34.472Z"
+              "WhenOpened": "2024-03-26T17:14:34.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
