@@ -71,7 +71,7 @@
             color: White;
         }
 
-        .app-nav li.selected{
+        .app-nav li.selected {
             font-weight: 700;
             text-decoration: underline;
         }
@@ -94,7 +94,7 @@
             cursor: pointer;
             user-select: none;
             background-color: #FF5722;
-            color:white;
+            color: white;
         }
 
         .value {
@@ -121,6 +121,8 @@
             background-color: #ccc;
         }
     </style>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
     @Scripts.Render("~/bundles/jquery")
@@ -136,6 +138,7 @@
                         Dim drinksClass As String = String.Empty
                         Dim desertsClass As String = String.Empty
                         Dim myCartClass As String = String.Empty
+                        Dim dbDataClass As String = String.Empty
 
                         Select Case ViewBag.FoodType
                             Case "Foods"
@@ -144,28 +147,73 @@
                                 drinksClass = "selected"
                             Case "Deserts"
                                 desertsClass = "selected"
+                            Case "Cart"
+                                myCartClass = "selected"
+                            Case "DbData"
+                                dbDataClass = "selected"
                         End Select
                     End Code
                     <li class="@foodsClass"><a href="/Home/Foods">Foods</a></li>
                     <li class="@drinksClass"><a href="/Home/Drinks">Drinks</a></li>
                     <li class="@desertsClass"><a href="/Home/Deserts">Deserts</a></li>
+                    <li class="@myCartClass"><a href="/Home/Cart">Cart</a></li>
+                    <li class="@dbDataClass"><a href="/Home/DbData">Db Tables</a></li>
                 </ul>
             </nav>
         </header>
         @RenderBody()
     </div>
     <script>
-        let count = 0;
+        document.addEventListener("DOMContentLoaded", function () {
+            var table = document.getElementById("myTable");
+            var total = 0;
+
+            // Loop through each row of the table
+            for (var i = 1; i<table.rows.length-1; i++) {
+                // Loop through each cell of the row
+                //for (var j = 0, cell; cell = row.cells[j]; j++) {
+                    // Extract numerical value from cell content and add it to total
+                total += parseFloat(table.rows[i].cells[4].textContent || table.rows[i].cells[4].innerText);
+               // }
+            }
+
+            // Display the total sum
+            document.getElementById("total").innerText = total;
+        });
 
         function increment() {
+            let count = parseInt($(event.target).siblings("div")[0].textContent);
+            let foodId = parseInt($(event.target).parent().parent().prop("id"));
             count++;
             $(event.target).siblings("div")[0].textContent = count;
+            $.ajax({
+                url: "/Home/AddFoodToCart", 
+                type: "POST", 
+                contentType: "application/json",
+                data: JSON.stringify({ foodId: foodId }),
+                dataType: "json", 
+                success: function (response) { 
+                    console.log("success")
+                }
+            });
         }
 
         function decrement() {
+            let count = parseInt($(event.target).siblings("div")[0].textContent);
+            let foodId = parseInt($(event.target).parent().parent().prop("id"));
             if (count > 0) {
                 count--;
                 $(event.target).siblings("div")[0].textContent = count;
+                $.ajax({
+                    url: "/Home/RemoveFoodFromCart",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify({ foodId: foodId }),
+                    dataType: "json",
+                    success: function (response) {
+                        console.log("success")
+                    }
+                });
             }
         }
     </script>

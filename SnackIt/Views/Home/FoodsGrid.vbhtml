@@ -10,7 +10,7 @@
                         <h2> @Model(i).Name</h2>
                         <div Class="counter">
                             <Button Class="button" onclick="decrement()">-</Button>
-                            <div Class="value" id="counterValue">0</div>
+                            <div Class="value" id="counterValue">@Model(i).CartValue</div>
                             <Button Class="button" onclick="increment()">+</Button>
                         </div>
                     </article>

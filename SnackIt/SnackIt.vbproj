@@ -155,6 +155,8 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CartItem.vb" />
+    <Compile Include="Models\DbData.vb" />
     <Compile Include="Models\FoodItem.vb" />
     <Compile Include="Models\UserLogin.vb" />
     <Compile Include="Models\UserSignUp.vb" />
@@ -270,6 +272,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\Users\SignUp.vbhtml" />
     <Content Include="Views\Users\Login.vbhtml" />
+    <Content Include="Views\Home\Cart.vbhtml" />
+    <Content Include="Views\Home\DbData.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

@@ -1,11 +1,11 @@
-﻿Public Class FoodItem
-    Private idText As Integer
-    Public Property Id() As Integer
+﻿Public Class CartItem
+    Private foodItemIdText As Integer
+    Public Property FoodItemId() As Integer
         Get
-            Return idText
+            Return foodItemIdText
         End Get
         Set(ByVal value As Integer)
-            idText = value
+            foodItemIdText = value
         End Set
     End Property
 
@@ -16,16 +16,6 @@
         End Get
         Set(ByVal value As String)
             nameText = value
-        End Set
-    End Property
-
-    Private typeText As FoodItemType
-    Public Property Type() As FoodItemType
-        Get
-            Return typeText
-        End Get
-        Set(ByVal value As FoodItemType)
-            typeText = value
         End Set
     End Property
 

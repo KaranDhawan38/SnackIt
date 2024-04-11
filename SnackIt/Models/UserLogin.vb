@@ -1,4 +1,13 @@
 ﻿Public Class UserLogin
+    Private idText As Guid
+    Public Property Id() As Guid
+        Get
+            Return idText
+        End Get
+        Set(ByVal value As Guid)
+            idText = value
+        End Set
+    End Property
     Private userIdText As String
     Public Property UserName() As String
         Get

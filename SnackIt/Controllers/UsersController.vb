@@ -15,6 +15,7 @@ Namespace Controllers
 
         <HttpPost>
         Function Login(userLogin As UserLogin) As ActionResult
+            Dim userId As guid = Nothing
             Dim userName As String = Nothing
             Using connection As New SqlConnection(connectionString)
                 Dim sqlQuery As String = "SELECT * FROM Users WHERE UserName=@Username AND Password=@Password"
@@ -25,12 +26,15 @@ Namespace Controllers
                     Using reader As SqlDataReader = command.ExecuteReader()
                         If reader.HasRows Then
                             While reader.Read()
+                                userId = reader.GetGuid(0)
                                 userName = reader.GetString(1)
                             End While
                         End If
                     End Using
                     connection.Close()
                     If Not String.IsNullOrEmpty(userName) Then
+                        Session("UserId") = userId
+                        Session("UserName") = userName
                         Return Redirect("/Home/Foods")
                     End If
                 End Using
