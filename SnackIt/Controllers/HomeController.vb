@@ -102,12 +102,15 @@ group by c.FoodId, f.Name, f.Price, f.Image"
     Function GetFoodItems(type As Integer) As List(Of FoodItem)
         Dim foodItems As New List(Of FoodItem)()
         Using connection As New SqlConnection(connectionString)
-            Dim sqlQuery As String = "SELECT f.*, count(c.FoodId) as CartValue FROM FoodItems f
-full outer join cart c on f.Id=c.FoodId
-WHERE Type=@Type  
-group by f.Id, f.name, f.Type, f.Price, f.Image"
+            Dim sqlQuery As String = "select x.Id, x.name, x.Type, x.Price, x.Image, x.CartValue from 
+(SELECT f.*, c.UserId AS UserId1, count(c.FoodId) as CartValue FROM FoodItems f
+full join cart c on f.Id=c.FoodId
+WHERE f.Type=@Type
+group by f.Id, f.name, f.Type, f.Price, f.Image, c.UserId) x
+where x.UserId1=@UserId or x.UserId1 is NULL"
             Using command As New SqlCommand(sqlQuery, connection)
                 command.Parameters.AddWithValue("@Type", type)
+                command.Parameters.AddWithValue("@UserId", Session("UserId"))
                 connection.Open()
                 Using reader As SqlDataReader = command.ExecuteReader()
                     If reader.HasRows Then
